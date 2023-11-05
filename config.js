@@ -13,7 +13,8 @@ dotenv.config({
 const config = {
     app: {
         hostname: process.env.HOST,
-        port: process.env.PORT
+        port: process.env.PORT,
+        test: 'tesing'
     },
 
     api: {
